@@ -44,7 +44,11 @@ public class LineProblem {
         if(lengthofline == lengthofline2){
             System.out.println("Both Lines Are Equal");
         } else {
-            System.out.println("Lines Are Not Equal");
+            if(lengthofline < lengthofline2){
+                System.out.println("Second Line Is Greater");
+            } else {
+                System.out.println("First Line is greater");
+            }
         }
     }
 }
